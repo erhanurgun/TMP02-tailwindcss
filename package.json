@@ -1,0 +1,13 @@
+{
+  "name": "demo.erhanurgun.com.tr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./tailwind.css -o ./src/assets/css/style.css --minify",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./src/assets/css/style.css --watch --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
